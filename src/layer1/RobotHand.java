@@ -14,7 +14,7 @@ public class RobotHand {
 	// enum with constants that represent the robot hand
 	// is up, down, open or closed
 	public enum Status { UP, DOWN, OPEN, CLOSED };
-	
+
 	public int curRow;
 	public int curCol;
 	public Status posStatus; // position status: UP or DOWN
@@ -36,7 +36,7 @@ public class RobotHand {
 		actStatus = a;
 		itemOnHand = i;
 	}
-	
+
 	public String toString() {
 		return String.format( "Row: %d, Col: %d, %s, %s, Item on Hand: %s",
 				curRow,

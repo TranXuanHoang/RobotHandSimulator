@@ -10,23 +10,23 @@ package layer1;
 
 public class TableCell {
 	private Items item;
-	
+
 	public TableCell() {
 		this(Items.NONE);
 	}
-	
+
 	public TableCell(Items item) {
 		this.item = item;
 	}
-	
+
 	public Items getItem() {
 		return this.item;
 	}
-	
+
 	public void setItem(Items item) {
 		this.item = item;
 	}
-	
+
 	public String toString() {
 		switch (item) {
 		case BLUE:
@@ -46,7 +46,7 @@ public class TableCell {
 		case NONE:
 			return "none";
 		}
-		
+
 		return null;
 	}
 } // end class TableCell

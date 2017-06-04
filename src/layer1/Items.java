@@ -16,19 +16,19 @@ public enum Items {
 	PINK(5),
 	ORANGE(6),
 	NONE(7); // no exist any item
-	
+
 	// instance field
 	private final int color;
-	
+
 	// constructor
 	Items(int color) {
 		this.color = color;
 	}
-	
+
 	public int getItem() {
 		return color;
 	}
-	
+
 	public static Items getItem(int colorIndex) {
 		if (colorIndex == 0)
 			return BLUE;

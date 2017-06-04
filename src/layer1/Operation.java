@@ -16,7 +16,7 @@ public interface Operation {
 	 * about the robot's hand
 	 */
 	void execute(TableCell[][] table, RobotHand rbh);
-	
+
 	/**
 	 * Get the name of the operation
 	 * @return the String represents the name of the operation.

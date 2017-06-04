@@ -14,7 +14,7 @@ public class Up implements Operation {
 	public void execute(TableCell[][] table, RobotHand rbh) {
 		rbh.posStatus = Status.UP;
 	} // end method execute
-	
+
 	public String toString() {
 		return "UP";
 	} // end method toString
