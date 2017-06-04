@@ -356,6 +356,9 @@ public class ViewTable extends JPanel {
 	} // end method createAndShowGUI
 
 	public static void main(String args[]) {
+		// Uncomment this try-catch to get the appliacation's GUI
+		// compatible with the default look-and-feel of the operating
+		// system that you are using.
 		/*try {
 			javax.swing.UIManager.setLookAndFeel(javax.swing.UIManager
 					.getSystemLookAndFeelClassName());
