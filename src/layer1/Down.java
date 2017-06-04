@@ -14,7 +14,7 @@ public class Down implements Operation {
 	@Override
 	public void execute(TableCell[][] table, RobotHand rbh) {
 		rbh.posStatus = Status.DOWN;
-	} // end method PutDown
+	} // end method execute
 
 	public String toString() {
 		return "DN";
